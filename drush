@@ -27,7 +27,7 @@ done
 cd "$ORIGDIR"
 
 # Build the path to drush.php.
-SCRIPT_PATH=$(dirname "$SELF_PATH")/drush.php
+SCRIPT_PATH=$(dirname "$SELF_PATH")/bin/drush/drush.php
 case $(uname -a) in
   CYGWIN*)
     SCRIPT_PATH=$(cygpath -w -a -- "$SCRIPT_PATH") ;;
