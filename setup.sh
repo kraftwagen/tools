@@ -25,9 +25,9 @@ if [ -d $SELF_DIR/bin ] ; then
 fi
 mkdir $SELF_DIR/bin
 
-echo "Downloading drush 5.5";
+echo "Downloading drush 5.7";
 DRUSH_TMPFILE=`mktemp /tmp/drush.XXXXXXX.tar.gz`;
-curl -Ls http://ftp.drupal.org/files/projects/drush-7.x-5.5.tar.gz -o $DRUSH_TMPFILE;
+curl -Ls http://ftp.drupal.org/files/projects/drush-7.x-5.7.tar.gz -o $DRUSH_TMPFILE;
 tar -xzC $SELF_DIR/bin -f $DRUSH_TMPFILE drush;
 rm $DRUSH_TMPFILE;
 echo "Drush downloaded";
