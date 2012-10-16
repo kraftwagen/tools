@@ -34,7 +34,7 @@ echo "Drush downloaded";
 
 mkdir -p $SELF_DIR/bin/share/drush/commands
 
-echo "Downloading Lenkrad";
-git clone git://github.com/Kraftwagen/Lenkrad.git $SELF_DIR/bin/share/drush/commands/lenkrad --quiet;
-rm -rf $SELF_DIR/bin/share/drush/commands/lenkrad/.git
-echo "Lenkrad downloaded";
+echo "Downloading Kraftwagen";
+git clone git://github.com/kraftwagen/kraftwagen.git $SELF_DIR/bin/share/drush/commands/kraftwagen --quiet;
+rm -rf $SELF_DIR/bin/share/drush/commands/kraftwagen/.git
+echo "Kraftwagen downloaded";
