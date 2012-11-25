@@ -10,5 +10,5 @@ don't keep a seperate hammer for every doghouse I build, I don't keep a
 seperate drush for every Drupal site I build. (No, I never build doghouses.)
 
 This tool implements the 'hammer for every doghouse'-approach. Clone the GitHub
-repository (making this clone your Lenkrad 'tools' directory is very valid
+repository (making this clone your Kraftwagen 'tools' directory is very valid
 choice) and run ``setup.sh``. It will download Drush and Lenkrad.
